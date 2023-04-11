@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+​
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg , rgb(70, 115, 236) , rgb(11, 11, 150));
+}
+nav{
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 120px;
+    background: linear-gradient(30deg, rgb(70, 115, 236), rgb(11, 11, 150));
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+nav h1{
+    font-size: 40px;
+}
+nav div select{
+    background-color: transparent;
+    border: none;
+    margin: 0px 10px;
+    font-size: 12px;
+}
+nav div a{
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+nav div a:last-child{
+    background-color: hotpink;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+​
+header{
+    background-color: transparent;
+    padding: 5px 120px;
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+}
+#box1{
+    width: 60%;
+    height: 300px;
+}
+#box1 h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+#box1 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#box1 button{
+    background-color: hotpink;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+}
+​
+​
+​
+#box2 img{
+    width: 100%;
+    height:300px ;
+}
+​
+​
+​
+footer{
+    display: flex;
+    padding: 5px 120px;
+}
+footer div{
+    height:100px;
+    width: 100px;
+    background-color: transparent;
+}

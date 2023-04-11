@@ -1,0 +1,7 @@
+def fun(n):
+    print("hello",n)
+def fun1(a):
+    a("spiderman")
+fun1(fun)    
+
+

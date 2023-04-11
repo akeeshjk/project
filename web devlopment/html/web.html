@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    
+   <h1 align="center">FORM CREATION</h1> 
+   <hr>
+   <P>FORMS IN HTML IS USED TO TAKE VAUES FROM THE USER END</P>
+<form action="my exp.html">
+
+  <label> NAME: <input type="text" placeholder="ENTER YOUR FULL NAME" required> <BR></BR>
+  
+     <LABEl>EMAIL: <input type="email" placeholder=" ENTER YOUR MAIL ID" required> <BR></BR>
+     <LABEl>PASSWORD: <input type="password" placeholder=" ENTER YOUR PASSWORD" maxlength="10" minlength="5" required> <BR></BR>  
+     <LABEl>PHONE NUMBER: <input type="tel" placeholder= "ENTER YOUR phone NUMBER" maxlength="10" value="+91" required> <BR></BR>
+        <label>age:</label> <input type="number" step="1" max="100" min="1"><br><br>
+        <label>DOB:</label> <input type="datetime-local"><br><br>
+        
+        <Fieldset>
+            <Legend align="center">SELECT YOUR GENDER</Legend>
+           <input type="radio" name="GENDER" id="m" value="MALE"> <label for="m">male</label> <br>
+           <input type="radio" name="GENDER" id="f" value="FEMALE"> <label for="f">female</label> <br>
+           <input type="radio" name="GENDER" id="o" value="OTHERS"> <label for="o">others</label> <br>
+        </Fieldset> <br>
+
+           <fieldset>
+
+
+           <input type="checkbox" name="GENDER" id="m" value="MALE"> <label for="M">male</label> <br>
+           <input type="checkbox" name="GENDER" id="F" value="FEMALE"> <label for="">female</label> <br>
+           <input type="checkbox" name="GENDER" id="O" value="OTHERS"> <label for="">others</label> <br>
+        </fieldset> <br><br>
+           <fieldset>
+            <legend align="center">select your state</legend>
+
+            <select>
+               <option>...select...</option>
+               <option>tamilnadu</option>
+               <option>karnataka</option>
+               <option>kerala</option>
+               <option>andra pradesh</option>
+
+            </select>
+           </fieldset>
+
+
+
+      
+
+
+    <input type="submit" value="upload">
+    <input type="reset" value="clear data">
+</form>
+   
+</body>
+</html>

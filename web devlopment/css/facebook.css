@@ -1,0 +1,9 @@
+section{
+    background-color: blue(120,110,140);
+    width:100vw;
+    height:100vh;
+}
+div{
+    background-color: azure;
+    width: 300p;
+}
